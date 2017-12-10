@@ -1,0 +1,54 @@
+body {
+  background-image: url("../images/background.jpg");
+}
+
+h1 {
+  background-color: #5c0099;
+  color: white;
+  display:inline;
+  clear: both;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: solid 1px white;
+}
+
+#header {
+  width: 100%
+  max-width:960px;
+  margin: 0 auto;
+}
+
+#instructions {
+  background-color: #0040ff;
+  color: #cccccc;
+  width: 33%;
+  clear:both;
+  padding: 15px;
+  margin-top: 20px;
+  border: solid 1px #ddd
+}
+.container {
+
+}
+
+#guessingNumber {
+
+}
+
+#scorebox {
+
+}
+
+#crystals {
+
+}
+
+#totalScore {
+
+}
+
+#yourtotalscore {
+ 
+}
+
+
