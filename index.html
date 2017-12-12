@@ -3,12 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Crystal Collector Game</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
   	<link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
   	<!-- Added link to the jQuery Library -->
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<!-- Added link to the Bootstrap -->	
-  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<!-- Added link to the Bootstrap not needed this time-->	
+  	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"> -->
 </head>
 
 <body>
@@ -17,15 +17,10 @@
   	
   	<div id="instructions">  	
       <p>You will be given a random number at the start of the game.</p>
-      <br>
-      <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
-      <br>
-      <p>You win the game by matching your total score to random number. You lose the game if your total score goes above the random number.</p>
-      <br>
-      <p>The value of each crystal is hidden from you until you click on it.</p>
-      <br>
+      <p>There are four crystals spheres below.  By clicking on a crystal you will add a specific amount of points to your total score.</p>     
+      <p>You win the game by matching your total score to random number.  You lose the game if your total score goes above the random number.</p>     
+      <p>The value of each crystal is hidden from you until you click on it.</p>     
       <p>Each time when the game starts, the game will change the values of each crystal.</p>
-      <br>
     </div>
 
     <div class = "container">
@@ -43,7 +38,10 @@
     <div id="crystals"></div>
 
     <div id ="totalScore">
-      <h2 id = "yourtotalscore">Your Total Score is: <span id ="yourScore">0</span></h2>
+      <h2 id = "yourTotalScore">Your Total Score is:</h2>
+    </div>
+    <div> 
+    	<h2 id ="yourScore">0</h2> 
     </div>
 </div>
 

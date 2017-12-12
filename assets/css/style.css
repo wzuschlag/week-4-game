@@ -4,12 +4,13 @@ body {
 
 h1 {
   background-color: #5c0099;
+  opacity: 0.7;
   color: white;
+  border: solid 1px white;
   display:inline;
   clear: both;
   padding: 10px;
-  margin-bottom: 20px;
-  border: solid 1px white;
+  margin-bottom: 20px;  
 }
 
 #header {
@@ -20,35 +21,66 @@ h1 {
 
 #instructions {
   background-color: #0040ff;
-  color: #cccccc;
+  opacity: 0.7;
+  color: white;
+  border: solid 1px white;
   width: 33%;
   clear:both;
   padding: 15px;
-  margin-top: 20px;
-  border: solid 1px #ddd
-}
-.container {
-
+  margin-top: 20px; 
 }
 
 #guessingNumber {
-
+  background-color: #009688;
+  opacity: 0.7;
+  float: left;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 20px;
+  border: solid 1px white;
 }
 
 #scorebox {
-
+  background-color: #03A9F4;
+  opacity: 0.7;
+  display: inline-block;
+  padding: 15px 20px 10px 15px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border: solid 1px white;
 }
 
 #crystals {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
 
+.crystalImage {
+  height: 100px;
+  margin-left: 20px
 }
 
 #totalScore {
-
+  margin-bottom: 50px;
 }
 
-#yourtotalscore {
- 
+#yourTotalScore {
+  background: #009688;
+  opacity: 0.7;
+  display: inline;
+  padding: 20px;
+  color: white;
+  border: solid 1px white;
+}
+
+#yourScore {
+  background: #009688;
+  opacity: 0.7;
+  display: inline;
+  padding: 20px;
+  padding-right: 210px;
+  color: white;
+  border: solid 1px white;
 }
 
 
