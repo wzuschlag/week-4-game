@@ -37,6 +37,8 @@ h1 {
   display: inline-block;
   padding: 10px;
   margin-top: 20px;
+  width: 200px;
+  height: 145px;
   border: solid 1px white;
 }
 
@@ -47,6 +49,8 @@ h1 {
   padding: 15px 20px 10px 15px;
   margin-top: 20px;
   margin-left: 20px;
+  width: 100px;
+  height: 140px;
   border: solid 1px white;
 }
 
